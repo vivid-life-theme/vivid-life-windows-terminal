@@ -1,0 +1,23 @@
+{
+  "name": "vivid-life-noon-orange",
+  "background": "#ffffff",
+  "foreground": "#171717",
+  "cursorColor": "#c2410c",
+  "selectionBackground": "#edc6b6",
+  "black": "#171717",
+  "red": "#b91c1c",
+  "green": "#4d7c0f",
+  "yellow": "#a16207",
+  "blue": "#1d4ed8",
+  "purple": "#7e22ce",
+  "cyan": "#0e7490",
+  "white": "#404040",
+  "brightBlack": "#737373",
+  "brightRed": "#7f1d1d",
+  "brightGreen": "#365314",
+  "brightYellow": "#713f12",
+  "brightBlue": "#1e3a8a",
+  "brightPurple": "#581c87",
+  "brightCyan": "#164e63",
+  "brightWhite": "#d4d4d4"
+}
