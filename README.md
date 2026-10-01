@@ -53,6 +53,8 @@ Delete `%LOCALAPPDATA%\Microsoft\Windows Terminal\Fragments\VividLifeTheme\` and
 
 Windows Terminal's color surface is foreground/background/cursor/selection plus the 16-color ANSI palette — no shell syntax highlighting (that's the shell's job, e.g. [vivid-life-fish](https://github.com/vivid-life-theme/vivid-life-fish)). `background` uses the foundation's `surface.bg_terminal` token specifically — the only surface tier verified to clear 4.5:1 contrast against every `ansi.*` color per flavor.
 
+The selection colour is the design system's resolved terminal selection. Windows Terminal has no selection-foreground key, so ANSI text keeps its own colour while selected and can fall below AA contrast on the selection tint (the design system sets `fg` there where a target allows it).
+
 ## Recommended companion
 
 **Font** — [Atkinson Hyperlegible Mono](https://www.brailleinstitute.org/freefont) for the terminal, or its [Nerd Font variant](https://www.nerdfonts.com/font-downloads) if your prompt (e.g. [Starship](https://starship.rs)) uses icon glyphs.
