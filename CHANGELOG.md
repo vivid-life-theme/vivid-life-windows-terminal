@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-01
+
+### Changed
+
+- Bumped `@vivid-life-theme/design-system` to 0.11.0 (via 0.9.0). Cursor accent colors shift in several themes.
+- `selectionBackground` now uses the design system's resolved terminal selection (`overlay[variant].selection.terminal.flat`) instead of a port-side 30% accent blend. Selection colors change in all 24 themes.
+
+### Documentation
+
+- README notes that Windows Terminal has no selection-foreground key, so ANSI text can fall below AA contrast on the selection tint.
+
 ## [0.1.0] - 2026-09-01
 
 ### Added
