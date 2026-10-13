@@ -53,7 +53,7 @@ Delete `%LOCALAPPDATA%\Microsoft\Windows Terminal\Fragments\VividLifeTheme\` and
 
 ## Scope
 
-Windows Terminal's color surface is foreground/background/cursor/selection plus the 16-color ANSI palette. No shell syntax highlighting; that's the shell's job (see [vivid-life-powershell](https://github.com/vivid-life-theme/vivid-life-powershell) or [vivid-life-fish](https://github.com/vivid-life-theme/vivid-life-fish)). `background` uses the foundation's `surface.bg_terminal` token specifically: it's the only surface tier verified to clear 4.5:1 contrast against every `ansi.*` color per flavor.
+Windows Terminal's color surface is foreground/background/cursor/selection plus the 16-color ANSI palette. No shell syntax highlighting; that's the shell's job (see [vivid-life-powershell](https://github.com/vivid-life-theme/vivid-life-powershell) or [vivid-life-fish](https://github.com/vivid-life-theme/vivid-life-fish)). The terminal paints the canvas and stays out of the shell's business. `background` uses the foundation's `surface.bg_terminal` token specifically: it's the only surface tier verified to clear 4.5:1 contrast against every `ansi.*` color per flavor.
 
 The selection color is the design system's resolved terminal selection. Windows Terminal has no selection-foreground key, so ANSI text keeps its own color while selected and can drop below AA contrast on the selection tint (the design system sets `fg` there wherever a target allows it).
 
