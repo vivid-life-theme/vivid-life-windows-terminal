@@ -1,7 +1,8 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import tokens from "@vivid-life-theme/design-system";
-import { buildTheme } from "./theme-template.mjs";
+import { contrast } from "@vivid-life-theme/design-system/tools/build-tokens";
+import { buildTheme, buildWindowTheme } from "./theme-template.mjs";
 
 const FLAVORS = ["midnight", "twilight", "dawn", "noon"];
 const ANSI_KEYS = [
@@ -69,4 +70,39 @@ test("cursorColor matches the accent-shade table", () => {
 test("background uses surface.bg_terminal, not bg/bg_sunk/bg_soft", () => {
   const scheme = buildTheme("noon", "blue", tokens);
   assert.equal(scheme.background, tokens.flavors.noon.surface.bg_terminal);
+});
+
+// Pins the whole object, and with it the key set: Windows Terminal ignores
+// an unknown or misspelled theme key without an error.
+test("window theme puts the tab row on the frame — all 24 themes", () => {
+  for (const flavor of FLAVORS) {
+    for (const variant of tokens.variant_hues) {
+      const f = tokens.flavors[flavor];
+      const frame = f.frame[variant].bg;
+      assert.deepEqual(buildWindowTheme(flavor, variant, tokens), {
+        name: buildTheme(flavor, variant, tokens).name,
+        window: { applicationTheme: f.type },
+        tabRow: { background: frame, unfocusedBackground: frame },
+        tab: { background: "terminalBackground", unfocusedBackground: frame },
+      });
+    }
+  }
+});
+
+// The frame is the strip that tells the tab row from the pane, and the tab
+// titles on it are drawn in the system's text colour for applicationTheme:
+// the foundation gates its fg at 4.5:1 on every frame.
+test("frame is distinct from the pane and keeps fg readable — all 24 themes", () => {
+  for (const flavor of FLAVORS) {
+    for (const variant of tokens.variant_hues) {
+      const f = tokens.flavors[flavor];
+      const frame = f.frame[variant].bg;
+      assert.notEqual(frame, buildTheme(flavor, variant, tokens).background);
+      const ratio = contrast(frame, f.text.fg);
+      assert.ok(
+        ratio >= 4.5,
+        `${flavor}/${variant}: fg on the frame ${ratio.toFixed(2)}:1`,
+      );
+    }
+  }
 });

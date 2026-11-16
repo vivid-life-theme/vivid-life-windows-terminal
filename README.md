@@ -8,16 +8,16 @@ In time-of-day order. This port sets the terminal background itself, using the f
 
 | Flavor       | Type  | Terminal background |
 | ------------ | ----- | ------------------- |
-| **Midnight** | dark  | `#0a0a0a`           |
-| **Twilight** | dark  | `#333333`           |
+| **Midnight** | dark  | `#171717`           |
+| **Twilight** | dark  | `#404040`           |
 | **Dawn**     | light | `#d4d4d4`           |
-| **Noon**     | light | `#ffffff`           |
+| **Noon**     | light | `#f5f5f5`           |
 
 The shell and prompt ports ([PowerShell](https://github.com/vivid-life-theme/vivid-life-powershell), [fish](https://github.com/vivid-life-theme/vivid-life-fish), [Starship](https://github.com/vivid-life-theme/vivid-life-starship)) and the [Claude Code port](https://github.com/vivid-life-theme/vivid-life-claude-code) are all checked against these exact backgrounds, so pick the same flavor on both sides.
 
 ## Variants
 
-Each flavor comes in six accent variants: **Red · Orange · Yellow · Green · Blue · Purple**. The variant re-tints the accent (cursor color, selection tint); the ANSI palette and surface colors stay put across variants.
+Each flavor comes in six accent variants: **Red · Orange · Yellow · Green · Blue · Purple**. The variant re-tints the accent (cursor color, selection tint) and, with the optional [window theme](#colour-the-tab-row), colours the tab row around the pane; the ANSI palette and the pane background stay put across variants.
 
 ## Install
 
@@ -35,7 +35,7 @@ If PowerShell blocks the script with an execution-policy error, unblock it first
 Unblock-File .\install.ps1
 ```
 
-Why `git clone` and not a zip download? Because `git pull` + re-running `install.ps1` picks up new themes later. Zip files don't do updates; they just sit in `Downloads` feeling sorry for themselves.
+Why `git clone` and not a zip download? Because `git pull` + re-running `install.ps1` picks up new themes later (if you pasted a window theme, compare it with the file after an update; the script doesn't touch `settings.json`). Zip files don't do updates; they just sit in `Downloads` feeling sorry for themselves.
 
 ### Choose a theme
 
@@ -43,13 +43,28 @@ Restart Windows Terminal, then go to **Settings → Color schemes** to preview a
 
 Default: **Midnight · Purple** (`vivid-life-midnight-purple`), matching the design system's overall default.
 
+### Colour the tab row
+
+A colour scheme stops at the edge of the pane. The tab row, which is also the title bar, belongs to a window theme, and Windows Terminal reads window themes from `settings.json` only: a fragment can't carry one. So this step is by hand, and optional.
+
+Open `settings.json` (**Settings → Open JSON file**). [`themes/vivid-life-window-themes.json`](./themes/vivid-life-window-themes.json) holds one window theme per scheme, with the same name. Copy the object that matches your color scheme into the `"themes"` array (add the array if the file has none), then select it on the top level of the file:
+
+```jsonc
+"theme": "vivid-life-midnight-purple",
+"themes": [
+  // the matching object from themes/vivid-life-window-themes.json
+]
+```
+
+The tab row now takes the variant's frame color, whether the window has focus or not. The active tab takes the background of its pane and runs into it; the other tabs sink into the row. Windows Terminal has one `theme` for the whole window while color schemes are set per profile, so pick the window theme that matches the scheme you use most.
+
 ### Manual install (no script)
 
 Prefer not to run a script? Open any file under `themes/*.json` and copy its contents into the `"schemes"` array in Windows Terminal's `settings.json` (**Settings → Open JSON file**), one scheme at a time.
 
 ### Uninstall
 
-Delete `%LOCALAPPDATA%\Microsoft\Windows Terminal\Fragments\VividLifeTheme\` and restart Windows Terminal. No registry spelunking involved.
+Delete `%LOCALAPPDATA%\Microsoft\Windows Terminal\Fragments\VividLifeTheme\` and restart Windows Terminal. If you added a window theme, set `"theme"` back to `"dark"`, `"light"` or `"system"` and remove the object from `"themes"`. No registry spelunking involved.
 
 ## Scope
 
@@ -67,7 +82,7 @@ The rest of the family (terminals, editors, prompts, desktop) lives at [github.c
 
 ```bash
 npm install
-npm run build   # regenerate themes/*.json and dist/vivid-life-windows-terminal.json
+npm run build   # regenerate themes/*.json (schemes + window themes) and dist/vivid-life-windows-terminal.json
 npm test        # verify the mapping
 npm run format  # prettier
 ```

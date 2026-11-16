@@ -39,3 +39,20 @@ export function buildTheme(flavor, variant, tokens) {
     brightWhite: ansi.bright_white,
   };
 }
+
+// A window theme: the tab row, which is also the title bar, takes the
+// variant's frame colour (design-system 0.14.0, README → Frame), so the
+// variant's colour frames the grey pane. The active tab runs into its pane;
+// the others sink into the row. Same name as the scheme it belongs to.
+// A fragment cannot carry a theme; these are pasted into settings.json.
+// https://learn.microsoft.com/en-us/windows/terminal/customize-settings/themes
+export function buildWindowTheme(flavor, variant, tokens) {
+  const f = tokens.flavors[flavor];
+  const frame = f.frame[variant].bg;
+  return {
+    name: `vivid-life-${flavor}-${variant}`,
+    window: { applicationTheme: f.type },
+    tabRow: { background: frame, unfocusedBackground: frame },
+    tab: { background: "terminalBackground", unfocusedBackground: frame },
+  };
+}

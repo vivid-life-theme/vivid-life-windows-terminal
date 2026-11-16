@@ -1,0 +1,338 @@
+[
+  {
+    "name": "vivid-life-midnight-red",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#621414",
+      "unfocusedBackground": "#621414"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#621414"
+    }
+  },
+  {
+    "name": "vivid-life-midnight-orange",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#60210d",
+      "unfocusedBackground": "#60210d"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#60210d"
+    }
+  },
+  {
+    "name": "vivid-life-midnight-yellow",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#5a300c",
+      "unfocusedBackground": "#5a300c"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#5a300c"
+    }
+  },
+  {
+    "name": "vivid-life-midnight-green",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#28410d",
+      "unfocusedBackground": "#28410d"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#28410d"
+    }
+  },
+  {
+    "name": "vivid-life-midnight-blue",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#1b306f",
+      "unfocusedBackground": "#1b306f"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#1b306f"
+    }
+  },
+  {
+    "name": "vivid-life-midnight-purple",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#4a1276",
+      "unfocusedBackground": "#4a1276"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#4a1276"
+    }
+  },
+  {
+    "name": "vivid-life-twilight-red",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#450a0a",
+      "unfocusedBackground": "#450a0a"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#450a0a"
+    }
+  },
+  {
+    "name": "vivid-life-twilight-orange",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#431407",
+      "unfocusedBackground": "#431407"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#431407"
+    }
+  },
+  {
+    "name": "vivid-life-twilight-yellow",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#422006",
+      "unfocusedBackground": "#422006"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#422006"
+    }
+  },
+  {
+    "name": "vivid-life-twilight-green",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#1a2e05",
+      "unfocusedBackground": "#1a2e05"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#1a2e05"
+    }
+  },
+  {
+    "name": "vivid-life-twilight-blue",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#172554",
+      "unfocusedBackground": "#172554"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#172554"
+    }
+  },
+  {
+    "name": "vivid-life-twilight-purple",
+    "window": {
+      "applicationTheme": "dark"
+    },
+    "tabRow": {
+      "background": "#3b0764",
+      "unfocusedBackground": "#3b0764"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#3b0764"
+    }
+  },
+  {
+    "name": "vivid-life-dawn-red",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#fef6f6",
+      "unfocusedBackground": "#fef6f6"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#fef6f6"
+    }
+  },
+  {
+    "name": "vivid-life-dawn-orange",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#fff7f3",
+      "unfocusedBackground": "#fff7f3"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#fff7f3"
+    }
+  },
+  {
+    "name": "vivid-life-dawn-yellow",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#fef8ea",
+      "unfocusedBackground": "#fef8ea"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#fef8ea"
+    }
+  },
+  {
+    "name": "vivid-life-dawn-green",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#efffe2",
+      "unfocusedBackground": "#efffe2"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#efffe2"
+    }
+  },
+  {
+    "name": "vivid-life-dawn-blue",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#f5f9fe",
+      "unfocusedBackground": "#f5f9fe"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#f5f9fe"
+    }
+  },
+  {
+    "name": "vivid-life-dawn-purple",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#faf7fe",
+      "unfocusedBackground": "#faf7fe"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#faf7fe"
+    }
+  },
+  {
+    "name": "vivid-life-noon-red",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#f0c5c0",
+      "unfocusedBackground": "#f0c5c0"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#f0c5c0"
+    }
+  },
+  {
+    "name": "vivid-life-noon-orange",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#eec8b5",
+      "unfocusedBackground": "#eec8b5"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#eec8b5"
+    }
+  },
+  {
+    "name": "vivid-life-noon-yellow",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#e0cfac",
+      "unfocusedBackground": "#e0cfac"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#e0cfac"
+    }
+  },
+  {
+    "name": "vivid-life-noon-green",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#c6d8b6",
+      "unfocusedBackground": "#c6d8b6"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#c6d8b6"
+    }
+  },
+  {
+    "name": "vivid-life-noon-blue",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#bed2f3",
+      "unfocusedBackground": "#bed2f3"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#bed2f3"
+    }
+  },
+  {
+    "name": "vivid-life-noon-purple",
+    "window": {
+      "applicationTheme": "light"
+    },
+    "tabRow": {
+      "background": "#d8caec",
+      "unfocusedBackground": "#d8caec"
+    },
+    "tab": {
+      "background": "terminalBackground",
+      "unfocusedBackground": "#d8caec"
+    }
+  }
+]

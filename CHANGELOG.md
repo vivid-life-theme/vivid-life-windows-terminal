@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Window themes: `themes/vivid-life-window-themes.json` holds one window theme per color scheme, with the same name. Pasted into `settings.json`, it puts the tab row (which is also the title bar) on the variant's frame color from the design system; the active tab runs into its pane. Optional and by hand, since a fragment can't carry themes; see the README.
+
+### Changed
+
+- Bumped `@vivid-life-theme/design-system` to 0.14.1. The terminal background is now the flavor's editor background on every flavor (`#171717` / `#404040` / `#d4d4d4` / `#f5f5f5`), Midnight and Twilight get a selection in the accent's hue, and Twilight / Noon `brightBlack` change slightly.
+
 ## [0.2.0] - 2026-10-01
 
 ### Changed
