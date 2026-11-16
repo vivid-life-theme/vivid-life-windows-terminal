@@ -4,7 +4,7 @@ A multi-flavor color theme for [Windows Terminal](https://learn.microsoft.com/en
 
 ## Flavors
 
-In time-of-day order. This port sets the terminal background itself, using the foundation's terminal background tier:
+In time-of-day order. This port sets the terminal background itself, using the same color as the flavor's editor canvas:
 
 | Flavor       | Type  | Terminal background |
 | ------------ | ----- | ------------------- |
