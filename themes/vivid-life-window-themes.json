@@ -173,12 +173,12 @@
       "applicationTheme": "light"
     },
     "tabRow": {
-      "background": "#fef6f6",
-      "unfocusedBackground": "#fef6f6"
+      "background": "#ffd6d2",
+      "unfocusedBackground": "#ffd6d2"
     },
     "tab": {
       "background": "terminalBackground",
-      "unfocusedBackground": "#fef6f6"
+      "unfocusedBackground": "#ffd6d2"
     }
   },
   {
@@ -187,12 +187,12 @@
       "applicationTheme": "light"
     },
     "tabRow": {
-      "background": "#fff7f3",
-      "unfocusedBackground": "#fff7f3"
+      "background": "#fed8c5",
+      "unfocusedBackground": "#fed8c5"
     },
     "tab": {
       "background": "terminalBackground",
-      "unfocusedBackground": "#fff7f3"
+      "unfocusedBackground": "#fed8c5"
     }
   },
   {
@@ -201,12 +201,12 @@
       "applicationTheme": "light"
     },
     "tabRow": {
-      "background": "#fef8ea",
-      "unfocusedBackground": "#fef8ea"
+      "background": "#f0e0bc",
+      "unfocusedBackground": "#f0e0bc"
     },
     "tab": {
       "background": "terminalBackground",
-      "unfocusedBackground": "#fef8ea"
+      "unfocusedBackground": "#f0e0bc"
     }
   },
   {
@@ -215,12 +215,12 @@
       "applicationTheme": "light"
     },
     "tabRow": {
-      "background": "#efffe2",
-      "unfocusedBackground": "#efffe2"
+      "background": "#d6e9c6",
+      "unfocusedBackground": "#d6e9c6"
     },
     "tab": {
       "background": "terminalBackground",
-      "unfocusedBackground": "#efffe2"
+      "unfocusedBackground": "#d6e9c6"
     }
   },
   {
@@ -229,12 +229,12 @@
       "applicationTheme": "light"
     },
     "tabRow": {
-      "background": "#f5f9fe",
-      "unfocusedBackground": "#f5f9fe"
+      "background": "#d1e2fe",
+      "unfocusedBackground": "#d1e2fe"
     },
     "tab": {
       "background": "terminalBackground",
-      "unfocusedBackground": "#f5f9fe"
+      "unfocusedBackground": "#d1e2fe"
     }
   },
   {
@@ -243,12 +243,12 @@
       "applicationTheme": "light"
     },
     "tabRow": {
-      "background": "#faf7fe",
-      "unfocusedBackground": "#faf7fe"
+      "background": "#e8dafd",
+      "unfocusedBackground": "#e8dafd"
     },
     "tab": {
       "background": "terminalBackground",
-      "unfocusedBackground": "#faf7fe"
+      "unfocusedBackground": "#e8dafd"
     }
   },
   {

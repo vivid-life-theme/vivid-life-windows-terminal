@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Bumped `@vivid-life-theme/design-system` to 0.14.1. The terminal background is now the flavor's editor background on every flavor (`#171717` / `#404040` / `#d4d4d4` / `#f5f5f5`), Midnight and Twilight get a selection in the accent's hue, and Twilight / Noon `brightBlack` change slightly.
+- Bumped `@vivid-life-theme/design-system` to 0.14.2 (via 0.14.1). The terminal background is now the flavor's editor background on every flavor (`#171717` / `#404040` / `#d4d4d4` / `#f5f5f5`), Midnight and Twilight get a selection in the accent's hue, and Twilight / Noon `brightBlack` change slightly. Dawn's window themes now give the tab row a visible pastel (e.g. `#d1e2fe` for Blue) instead of a near-white one.
 
 ## [0.2.0] - 2026-10-01
 
