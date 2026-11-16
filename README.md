@@ -39,9 +39,9 @@ Why `git clone` and not a zip download? Because `git pull` + re-running `install
 
 ### Choose a theme
 
-Restart Windows Terminal, then go to **Settings → Color schemes** to preview and set a default, or per profile under **Settings → \<profile\> → Appearance → Color scheme**. All 24 schemes appear as `vivid-life-<flavor>-<variant>`.
+Restart Windows Terminal, then go to **Settings → Color schemes** to preview and set a default, or per profile under **Settings → \<profile\> → Appearance → Color scheme**. All 24 schemes appear as **Vivid Life · \<Flavor\> · \<Variant\>**, e.g. **Vivid Life · Midnight · Purple**.
 
-Default: **Midnight · Purple** (`vivid-life-midnight-purple`), matching the design system's overall default.
+Default: **Vivid Life · Midnight · Purple**, matching the design system's overall default.
 
 ### Colour the tab row
 
@@ -50,7 +50,7 @@ A colour scheme stops at the edge of the pane. The tab row, which is also the ti
 Open `settings.json` (**Settings → Open JSON file**). [`themes/vivid-life-window-themes.json`](./themes/vivid-life-window-themes.json) holds one window theme per scheme, with the same name. Copy the object that matches your color scheme into the `"themes"` array (add the array if the file has none), then select it on the top level of the file:
 
 ```jsonc
-"theme": "vivid-life-midnight-purple",
+"theme": "Vivid Life · Midnight · Purple",
 "themes": [
   // the matching object from themes/vivid-life-window-themes.json
 ]

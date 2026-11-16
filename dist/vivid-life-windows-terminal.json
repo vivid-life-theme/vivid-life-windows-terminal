@@ -1,7 +1,7 @@
 {
   "schemes": [
     {
-      "name": "vivid-life-midnight-red",
+      "name": "Vivid Life · Midnight · Red",
       "background": "#171717",
       "foreground": "#f5f5f5",
       "cursorColor": "#ef4444",
@@ -24,7 +24,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-midnight-orange",
+      "name": "Vivid Life · Midnight · Orange",
       "background": "#171717",
       "foreground": "#f5f5f5",
       "cursorColor": "#f97316",
@@ -47,7 +47,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-midnight-yellow",
+      "name": "Vivid Life · Midnight · Yellow",
       "background": "#171717",
       "foreground": "#f5f5f5",
       "cursorColor": "#eab308",
@@ -70,7 +70,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-midnight-green",
+      "name": "Vivid Life · Midnight · Green",
       "background": "#171717",
       "foreground": "#f5f5f5",
       "cursorColor": "#84cc16",
@@ -93,7 +93,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-midnight-blue",
+      "name": "Vivid Life · Midnight · Blue",
       "background": "#171717",
       "foreground": "#f5f5f5",
       "cursorColor": "#93c5fd",
@@ -116,7 +116,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-midnight-purple",
+      "name": "Vivid Life · Midnight · Purple",
       "background": "#171717",
       "foreground": "#f5f5f5",
       "cursorColor": "#d8b4fe",
@@ -139,7 +139,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-twilight-red",
+      "name": "Vivid Life · Twilight · Red",
       "background": "#404040",
       "foreground": "#f5f5f5",
       "cursorColor": "#fca5a5",
@@ -162,7 +162,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-twilight-orange",
+      "name": "Vivid Life · Twilight · Orange",
       "background": "#404040",
       "foreground": "#f5f5f5",
       "cursorColor": "#fdba74",
@@ -185,7 +185,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-twilight-yellow",
+      "name": "Vivid Life · Twilight · Yellow",
       "background": "#404040",
       "foreground": "#f5f5f5",
       "cursorColor": "#eab308",
@@ -208,7 +208,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-twilight-green",
+      "name": "Vivid Life · Twilight · Green",
       "background": "#404040",
       "foreground": "#f5f5f5",
       "cursorColor": "#84cc16",
@@ -231,7 +231,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-twilight-blue",
+      "name": "Vivid Life · Twilight · Blue",
       "background": "#404040",
       "foreground": "#f5f5f5",
       "cursorColor": "#93c5fd",
@@ -254,7 +254,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-twilight-purple",
+      "name": "Vivid Life · Twilight · Purple",
       "background": "#404040",
       "foreground": "#f5f5f5",
       "cursorColor": "#d8b4fe",
@@ -277,7 +277,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-dawn-red",
+      "name": "Vivid Life · Dawn · Red",
       "background": "#d4d4d4",
       "foreground": "#171717",
       "cursorColor": "#991b1b",
@@ -300,7 +300,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-dawn-orange",
+      "name": "Vivid Life · Dawn · Orange",
       "background": "#d4d4d4",
       "foreground": "#171717",
       "cursorColor": "#7c2d12",
@@ -323,7 +323,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-dawn-yellow",
+      "name": "Vivid Life · Dawn · Yellow",
       "background": "#d4d4d4",
       "foreground": "#171717",
       "cursorColor": "#854d0e",
@@ -346,7 +346,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-dawn-green",
+      "name": "Vivid Life · Dawn · Green",
       "background": "#d4d4d4",
       "foreground": "#171717",
       "cursorColor": "#3f6212",
@@ -369,7 +369,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-dawn-blue",
+      "name": "Vivid Life · Dawn · Blue",
       "background": "#d4d4d4",
       "foreground": "#171717",
       "cursorColor": "#1d4ed8",
@@ -392,7 +392,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-dawn-purple",
+      "name": "Vivid Life · Dawn · Purple",
       "background": "#d4d4d4",
       "foreground": "#171717",
       "cursorColor": "#7e22ce",
@@ -415,7 +415,7 @@
       "brightWhite": "#f5f5f5"
     },
     {
-      "name": "vivid-life-noon-red",
+      "name": "Vivid Life · Noon · Red",
       "background": "#f5f5f5",
       "foreground": "#171717",
       "cursorColor": "#b91c1c",
@@ -438,7 +438,7 @@
       "brightWhite": "#d4d4d4"
     },
     {
-      "name": "vivid-life-noon-orange",
+      "name": "Vivid Life · Noon · Orange",
       "background": "#f5f5f5",
       "foreground": "#171717",
       "cursorColor": "#c2410c",
@@ -461,7 +461,7 @@
       "brightWhite": "#d4d4d4"
     },
     {
-      "name": "vivid-life-noon-yellow",
+      "name": "Vivid Life · Noon · Yellow",
       "background": "#f5f5f5",
       "foreground": "#171717",
       "cursorColor": "#854d0e",
@@ -484,7 +484,7 @@
       "brightWhite": "#d4d4d4"
     },
     {
-      "name": "vivid-life-noon-green",
+      "name": "Vivid Life · Noon · Green",
       "background": "#f5f5f5",
       "foreground": "#171717",
       "cursorColor": "#3f6212",
@@ -507,7 +507,7 @@
       "brightWhite": "#d4d4d4"
     },
     {
-      "name": "vivid-life-noon-blue",
+      "name": "Vivid Life · Noon · Blue",
       "background": "#f5f5f5",
       "foreground": "#171717",
       "cursorColor": "#1d4ed8",
@@ -530,7 +530,7 @@
       "brightWhite": "#d4d4d4"
     },
     {
-      "name": "vivid-life-noon-purple",
+      "name": "Vivid Life · Noon · Purple",
       "background": "#f5f5f5",
       "foreground": "#171717",
       "cursorColor": "#7e22ce",

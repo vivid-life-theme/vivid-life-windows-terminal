@@ -5,6 +5,14 @@
 // (`overlay[variant].selection.terminal.flat`, the recipe flattened over
 // bg_terminal) since Windows Terminal's scheme keys have no alpha channel.
 
+// The name Windows Terminal shows in its dropdowns, e.g.
+// "Vivid Life · Midnight · Purple". Profiles and the top-level "theme" key
+// store it, so renaming it unsets the scheme for existing users.
+export function displayName(tokens, flavor, variant) {
+  const variantLabel = variant[0].toUpperCase() + variant.slice(1);
+  return `Vivid Life · ${tokens.flavors[flavor].label} · ${variantLabel}`;
+}
+
 function resolveAccent(tokens, flavor, variant) {
   const shade = tokens.accent_shade[flavor][variant];
   return tokens.palette[variant][shade];
@@ -16,7 +24,7 @@ export function buildTheme(flavor, variant, tokens) {
   const accent = resolveAccent(tokens, flavor, variant);
 
   return {
-    name: `vivid-life-${flavor}-${variant}`,
+    name: displayName(tokens, flavor, variant),
     background: surface.bg_terminal,
     foreground: text.fg,
     cursorColor: accent,
@@ -50,7 +58,7 @@ export function buildWindowTheme(flavor, variant, tokens) {
   const f = tokens.flavors[flavor];
   const frame = f.frame[variant].bg;
   return {
-    name: `vivid-life-${flavor}-${variant}`,
+    name: displayName(tokens, flavor, variant),
     window: { applicationTheme: f.type },
     tabRow: { background: frame, unfocusedBackground: frame },
     tab: { background: "terminalBackground", unfocusedBackground: frame },

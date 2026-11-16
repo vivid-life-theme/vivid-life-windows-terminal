@@ -28,7 +28,10 @@ test("builds all 24 flavor x variant combinations", () => {
   for (const flavor of FLAVORS) {
     for (const variant of tokens.variant_hues) {
       const scheme = buildTheme(flavor, variant, tokens);
-      assert.equal(scheme.name, `vivid-life-${flavor}-${variant}`);
+      assert.match(
+        scheme.name,
+        /^Vivid Life · (Midnight|Twilight|Dawn|Noon) · (Red|Orange|Yellow|Green|Blue|Purple)$/,
+      );
       for (const key of [
         "background",
         "foreground",

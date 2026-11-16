@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- **Breaking:** the schemes now show readable names in Windows Terminal's dropdowns, such as `Vivid Life · Midnight · Purple` instead of `vivid-life-midnight-purple`. This matches the other ports. Windows Terminal stores the name in each profile, so after updating, pick your scheme again under **Settings → \<profile\> → Appearance → Color scheme**. In `settings.json`, replace any `"colorScheme": "vivid-life-midnight-purple"` with `"colorScheme": "Vivid Life · Midnight · Purple"`.
+
 ### Added
 
-- Window themes: `themes/vivid-life-window-themes.json` holds one window theme per color scheme, with the same name. Pasted into `settings.json`, it puts the tab row (which is also the title bar) on the variant's frame color from the design system; the active tab runs into its pane. Optional and by hand, since a fragment can't carry themes; see the README.
+- Window themes: `themes/vivid-life-window-themes.json` holds one window theme per color scheme, with the same name (e.g. `Vivid Life · Midnight · Purple`). Pasted into `settings.json`, it puts the tab row (which is also the title bar) on the variant's frame color from the design system; the active tab runs into its pane. Optional and by hand, since a fragment can't carry themes; see the README.
 
 ### Changed
 

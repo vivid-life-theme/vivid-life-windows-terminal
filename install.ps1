@@ -22,4 +22,7 @@ $schemeCount = (Get-Content $source -Raw | ConvertFrom-Json).schemes.Count
 Write-Host "Installed $schemeCount Vivid Life color schemes to $target"
 Write-Host "Restart Windows Terminal, then pick one under Settings -> Color schemes"
 Write-Host "(or per-profile under Settings -> <profile> -> Appearance -> Color scheme)."
-Write-Host "Default: vivid-life-midnight-purple"
+# Windows PowerShell 5.1 reads this BOM-less file as ANSI, so the scheme
+# name's middle dot is built from its code rather than typed.
+$dot = [char]0x00B7
+Write-Host "Default: Vivid Life $dot Midnight $dot Purple"
